@@ -14,7 +14,7 @@ import './globalstyles.css'
 function App() {
   return (
     <Fragment>
-      <h1>Cats and Dogs Character Traits 🐶🐱</h1>
+      <h1>🐶 and 🐱 Character Traits </h1>
       <Router>
         <div className='navrender pages'>
           <Menu />

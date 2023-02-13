@@ -42,7 +42,7 @@ export function Catimgdata() {
 
     setApicatData(datainforr)
   }, [results])
-
+  console.log(results)
   return (
     <>
       <div className='heading'>

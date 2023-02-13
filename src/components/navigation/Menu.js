@@ -34,15 +34,13 @@ const Menu = (props) => {
       }
 
       return (
-        <div className='home_page'>
-          <div
-            className='m-item'
-            key={item.id}
-            style={openMenu ? itemStyle : null}
-            onClick={() => pushToRoute(item.route)}
-          >
-            {item.name}
-          </div>
+        <div
+          className='m-item'
+          key={index}
+          style={openMenu ? itemStyle : null}
+          onClick={() => pushToRoute(item.route)}
+        >
+          {item.name}
         </div>
       )
     })

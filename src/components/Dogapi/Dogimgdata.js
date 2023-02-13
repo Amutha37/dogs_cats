@@ -63,7 +63,7 @@ export function Dogimgdata() {
     }
     setApiData(datainforr)
   }, [results])
-
+  console.log(results)
   return (
     <>
       <div className='heading'>

@@ -52,7 +52,7 @@ const Menu = (props) => {
     <div className='menucontainer'>
       <div className='menu'>
         <div className={'m-item m-logo'} onClick={() => setOpenMenu(!openMenu)}>
-          Menu <i className='fab fa-react'></i>
+          Select <i className='fab fa-react'></i>
         </div>
 
         {renderMenuItems(data)}

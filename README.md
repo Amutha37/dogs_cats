@@ -16,8 +16,12 @@ Dependencies
 
 `npm install axios`
 
-`npm install react-router-dom`
+`npm install react-router-dom@5.2.0
 
 deloy this app
 
 `npm install gh-pages --save-dev`
+
+each commit
+
+`npm run deloy`

@@ -62,7 +62,7 @@ function Dataselectapp() {
 
   return (
     <>
-      <h1>🐱 API database</h1>
+      <h2>🐱 API database</h2>
       <div className='checkboxes'>
         <form>
           <div className='searchbox'>

@@ -83,7 +83,7 @@ export const Alldogimgtable = ({ apiData }) => {
   return (
     <>
       <button className='dogbtn' onClick={handleApibtn}>
-        {isPress ? 'All images' : 'Names'}
+        {isPress ? 'Images' : 'Names'}
       </button>
 
       <table className='dml_table' cellPadding={0} cellSpacing={0}>
@@ -103,8 +103,8 @@ export const Alldogimgtable = ({ apiData }) => {
           </tr>
         </thead>
         <tbody>
-          {currentItems.map((row, url) => (
-            <tr key={url}>
+          {currentItems.map((row, index) => (
+            <tr key={index}>
               <td>{row.id}</td>
               {isPress ? null : (
                 <td>

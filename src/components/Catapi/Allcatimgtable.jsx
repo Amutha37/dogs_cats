@@ -82,7 +82,7 @@ export const Allcatimgtable = ({ apicatData }) => {
   return (
     <>
       <button className='dogbtn' onClick={handleApibtn}>
-        {isPress ? 'All images' : 'Names'}
+        {isPress ? 'Images' : 'Names'}
       </button>
 
       <table className='dml_table' cellPadding={0} cellSpacing={0}>

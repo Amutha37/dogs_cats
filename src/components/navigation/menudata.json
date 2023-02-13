@@ -1,0 +1,25 @@
+{
+  "menu": [
+    {
+      "id": "001",
+      "name": "Select...",
+      "route": "/"
+    },
+
+    {
+      "id": "002",
+      "name": "Datatable",
+      "route": "/"
+    },
+    {
+      "id": "003",
+      "name": "CatAPI",
+      "route": "/catapi"
+    },
+    {
+      "id": "004",
+      "name": "DogAPI",
+      "route": "/dogapi"
+    }
+  ]
+}

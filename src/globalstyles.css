@@ -6,11 +6,6 @@
 }
 h2 {
   color: rgb(88, 45, 215);
-  margin-top: 5rem;
-  text-align: center;
-  margin-left: 6rem;
-  tab-size: 2rem;
-  position: stickly;
 }
 h1 {
   margin-top: 2rem;
@@ -25,8 +20,8 @@ h1 {
 .dml_table {
   width: 95%;
   box-sizing: border-box;
-  margin: 4rem auto;
-  background-color: rgb(227, 205, 238);
+  margin: 6rem auto;
+  background-color: rgb(234, 242, 237);
 }
 
 .dml_table tr {
@@ -35,7 +30,7 @@ h1 {
 }
 
 .dml_table tr th {
-  background: #c783f4;
+  background: #69d4a1;
   color: rgba(14, 14, 20, 0.77);
   font-size: 1rem;
   padding: 0.6rem;
@@ -95,6 +90,7 @@ input {
 table {
   margin-bottom: 30rem;
   height: 5rem;
+  margin-top: 3rem;
 }
 img {
   width: 17rem;
@@ -148,7 +144,7 @@ p:hover > img {
   top: 2.2em;
   left: 10.1em;
   transition: all 0.5s ease;
-  margin-top: 7.2rem;
+  margin-top: 4.4rem;
   font-weight: 600;
   /* font-weight: bold; */
 }
@@ -229,11 +225,18 @@ p:hover > img {
 
 @media screen and (max-width: 700px) {
   .heading h1 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
+  }
+  .dogbtn {
+    width: 5.7em;
+    font-size: 1em;
+    left: 9.4em;
+    top: 7.5rem;
+    padding: 0.6px;
   }
   .dml_table {
     width: 95%;
-    margin: 2rem auto;
+    margin: 5rem auto;
   }
   .dml_table tr th {
     font-size: 0.6rem;
@@ -261,19 +264,20 @@ p:hover > img {
 }
 @media screen and (max-width: 560px) {
   .heading h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-left: 9rem;
+    /* margin-top: 12rem; */
   }
   .dogbtn {
     width: 5.7em;
     font-size: 1em;
     left: 9.2em;
-    top: 2rem;
+    /* top: 0rem; */
     padding: 0.6px;
   }
   .dml_table {
     width: 95%;
-    margin: 3rem auto;
+    margin: 5rem auto;
   }
   .dml_table tr th {
     font-size: 0.8rem;

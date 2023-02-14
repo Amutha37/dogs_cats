@@ -46,7 +46,7 @@ export function Catimgdata() {
   return (
     <>
       <div className='heading'>
-        <h2>🐈 Characteristics</h2>
+        <h1>🐈 Characteristics</h1>
       </div>
       {/* <br /> */}
       {/* Error message */}

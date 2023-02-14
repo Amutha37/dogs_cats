@@ -39,6 +39,10 @@
 }
 
 @media screen and (max-width: 560px) {
+  .menu {
+    position: relative;
+    margin: 7em 3em;
+  }
   .m-item {
     width: 6em;
     font-size: 1em;

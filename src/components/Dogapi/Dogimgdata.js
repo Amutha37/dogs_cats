@@ -67,7 +67,7 @@ export function Dogimgdata() {
   return (
     <>
       <div className='heading'>
-        <h2>🦮 Characteristics</h2>
+        <h1>🦮 Characteristics</h1>
       </div>
       <main>
         {status === 'idle' && (
